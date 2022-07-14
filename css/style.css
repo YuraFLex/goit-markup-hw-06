@@ -811,19 +811,22 @@ body {
   top: 50%;
   left: 50%;
   width: 528px;
-  height: 581px;
-  padding: 8px;
+  padding: 40px;
   background-color: var(--prinmary-bg-color);
   fill: var(--primary-text-color);
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-content {
+  position: relative;
 }
 
 .btn-modal {
   width: 30px;
   height: 30px;
   position: absolute;
-  right: 8px;
+  top: -32px;
+  right: -32px;
   border-radius: 50%;
   padding: 6px 6px 5px 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -836,4 +839,57 @@ body {
   width: 18px;
   height: 18px;
   fill: var(--primary-text-color);
+}
+
+.modal-title {
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.modal-form-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.modal-form-label {
+  position: relative;
+  display: block;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  color: var(--second-text-color);
+}
+
+.modal-form-input {
+  display: block;
+  margin: 4px 0 0;
+  width: 100%;
+  padding: 11px 12px 11px 35px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment-input {
+  padding: 12px 16px;
+  height: 120px;
+  resize: none;
+}
+
+.modal-form-btn {
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 55px;
+  background-color: var(--acent-color);
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border: 1px solid var(--acent-color);
+  border-radius: 4px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
