@@ -912,4 +912,5 @@ body {
   border: 1px solid var(--acent-color);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
