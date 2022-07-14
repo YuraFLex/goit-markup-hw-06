@@ -512,6 +512,10 @@ body {
   padding-bottom: 60px;
 }
 
+.foot {
+  display: flex;
+}
+
 .footer-content {
   display: flex;
 }
@@ -603,6 +607,59 @@ body {
   background-color: var(--acent-color);
 }
 
+/* -------------------- Sunscribe -------------------- */
+
+.subscribe-form {
+  margin-left: 93px;
+  padding-top: 12px;
+  font-weight: 700;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.subscribe-form-label {
+  line-height: 1.2;
+  color: var(--white-text-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.subscribe-form-input {
+  padding: 15px 16px;
+  width: 358px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: rgba(255, 255, 255, 0.6);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-form-btn {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 0 12px;
+  padding: 10px 28px;
+  background-color: var(--acent-color);
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  border: 1px solid var(--acent-color);
+}
+
+.icon-send {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
 /* -------------------- Портфолио -------------------- */
 
 .portfoliobtn-list {
