@@ -618,14 +618,14 @@ body {
   padding-bottom: 20px;
 }
 
-.subscribe-form-label {
+.subscribe-label {
   line-height: 1.2;
   color: var(--white-text-color);
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .subscribe-form-input {
