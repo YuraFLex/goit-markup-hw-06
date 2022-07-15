@@ -674,7 +674,7 @@ body {
   margin-left: 10px;
 }
 
-.subscribe-form-btn:hover {
+.subscribe-form-btn:focus {
   background-color: var(--prinmary-bg-color);
   fill: var(--acent-color);
   color: var(--acent-color);
