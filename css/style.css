@@ -201,8 +201,8 @@ body {
 }
 
 .icon-contact {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   margin-right: 10px;
 }
 
@@ -837,7 +837,6 @@ body {
   padding: 6px 6px 5px 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--prinmary-bg-color);
-  fill: #000000;
   align-items: center;
 }
 
@@ -845,6 +844,10 @@ body {
   width: 18px;
   height: 18px;
   fill: var(--primary-text-color);
+}
+
+.btn-modal:hover .btn-modal-icon {
+  fill: var(--acent-color);
 }
 
 .modal-title {
