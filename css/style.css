@@ -501,13 +501,14 @@ body {
   height: 60px;
 }
 
+.customer-link:hover,
+.customer-link:focus {
+  fill: var(--acent-color);
+}
+
 .customer:hover,
 .customer:focus {
   border-color: var(--acent-color);
-}
-
-.customer-link:hover,
-.customer-link:focus {
   fill: var(--acent-color);
 }
 
