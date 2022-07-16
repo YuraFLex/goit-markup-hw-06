@@ -502,10 +502,12 @@ body {
 }
 
 .customer:hover,
-.customer-link:hover,
-.customer:focus,
-.customer-link:focus {
+.customer:focus {
   border-color: var(--acent-color);
+}
+
+.customer-link:hover,
+.customer-link:focus {
   fill: var(--acent-color);
 }
 
