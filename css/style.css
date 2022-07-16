@@ -821,7 +821,7 @@ body {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .back-drop.is-hidden {
+.back-drop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -830,8 +830,8 @@ body {
 }
 
 .back-drop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5);
-} */
+  transform: translate(-50%, -50%) scale(1.3);
+}
 
 .modal {
   position: absolute;
@@ -933,6 +933,7 @@ body {
 
 .modal-form-btn {
   display: block;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -990,4 +991,20 @@ body {
   background-image: url(../img/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
+}
+
+.checkbox-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.checkbox-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--acent-color);
+  margin-left: 5px;
 }
